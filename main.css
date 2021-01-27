@@ -1,0 +1,43 @@
+/* ==== GENERAL STYLE ==== */
+
+* {
+	box-sizing: border-box;
+}
+
+/* ==== BASE STYLE ==== */
+
+.wrapper {
+	min-width:100vh;
+	height: 100vh;
+	background: url(assets/freedom.jpg) no-repeat center;
+	background-size: cover; 
+	padding: 2rem;
+	display: table;
+}
+.text {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+h1 {
+	font-size: 1.8rem;
+	color: #000;
+	margin: 1rem auto;
+}
+
+h2 {
+	font-size: 1.25rem;
+	color: #000;
+	margin: 0;
+}
+
+.name::before {
+	display: inline;
+	content: "";
+	width: 1rem;
+	height: 1px;
+	color: #000;
+	vertical-align: middle;
+	margin: 0 .5;
+}
